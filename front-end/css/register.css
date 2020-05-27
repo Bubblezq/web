@@ -1,0 +1,109 @@
+form input {
+    padding: 7px 0px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: normal;
+}
+
+
+
+.section-my-account {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 23px #ddd;
+}
+
+.section-my-account  .content-body {
+    text-align: left;
+    height: 260px;
+}
+
+form label {
+    font-weight: bold;
+    color: dimgrey;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.section-my-account  .content-body p {
+    margin-bottom: 5px;
+}
+
+.user-account-popup .user-acc-header {
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+.user-acc-header h3 {
+    padding: 5px 0;
+    font-size: 21px;
+    border-bottom: 1px dashed #ddd;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+img{
+    border-radius: 50%;
+    margin: 0 auto 5px;
+    display: block;
+     max-width: 80px;
+
+}
+
+form input[type="submit"] {
+	-webkit-appearance: button;
+    cursor: pointer;
+    background: rgb(3, 35, 95);
+    color: #fff;
+    font-size: 14px;
+    padding: 9px 35px;
+    border: none;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: rgb(31, 75, 141);
+}
+a {
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+}
