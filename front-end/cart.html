@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer"/>
+    <title>BookStore</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+    <script src="js/cart.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active"  href="cart.html" >Cart Page</a></li>
+                <li><a href="order.html" >My Order</a></li>
+                <li><a href="login.html" >Login</a></li>                
+            </ul>
+        </div>
+    </header>  
+        <br>
+        <br>
+        <br>
+        <div>
+            <form>
+                <table class="cart shop-table shop-table-responsive">
+                    <thead>
+                    <tr>
+                        <th class="product-name">Product</th>
+                        <th class="product-price">Unit Price</th>
+                        <th class="product-quantity">Amount</th>
+                        <th class="product-subtotal">Total Price</th>
+                        <th class="product-remove"></th>
+                    </tr>
+                    </thead>
+                    <tbody  id="carItem">
+                    
+                    </tbody>
+                </table>
+            </form>
+            <br>
+            <div class="wc-proceed-to-checkout">
+                <ul>
+                    <li>
+                        <p id="total"></p>
+                    </li>
+                    <li>
+                        <a href="#" class="checkout-button custom-button" onclick="pay()"> Pay </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <br> 
+</div>
+</body>
+</html>

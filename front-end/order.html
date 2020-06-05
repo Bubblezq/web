@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer"/>
     <title>BookStore</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/order.css">
+    <script src="js/order.js"></script>
 </head>
 <body>
     <header>
         <div>
-                <ul>
-                    <li><a href="home.html">主页</a></li>
-                    <li><a class="active"  href="order.html" >我的订单</a></li>
-                    <li><a href="login.html" >登录</a></li>
-                    <li><a href="register.html" >注册</a></li>
-                    
-                </ul>
-        </div> 
-    </header> 
-    <br>
-	<br>
-
-    <div class="section-my-account">
-        <div class="user-acc-header">
-            <img src="images/author.png" alt="">
-            <h3>登录</h3>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cart.html" >Cart Page</a></li>
+                <li><a class="active"  href="order.html" >My Order</a></li>
+                <li><a href="login.html" >Login</a></li>                
+            </ul>
         </div>
-    <div class="content-body">
-    <form name="input" action="",method="get">
-        <p><label>用户名</label><input type="text" placeholder="用户名" ></p>
-        <p><label>密码</label><input type="password" placeholder="密码" ></p>
-        <a href="home.html"><p><input type="submit" value="登录"></p></a>
-    </form>
-    </div>
-    <div>
-        <p>新用户？<a href="register.html">注册</a></p>
-    </div>
+    </header>  
+        <br>
+        <br>
+        <br>
+        <div>
+            <form>
+                <table class="cart shop-table shop-table-responsive">
+                    <thead>
+                    <tr>
+                        <th class="product-name">Product</th>
+                        <th class="product-unitprice">Unit Price</th>
+                        <th class="product-amounr">Amount</th>
+                        <th class="product-subtotal">Total Price</th>
+                    </tr>
+                    </thead>
+                    <tbody id="table">
+                    
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    <br> 
 </div>
 </body>
 </html>

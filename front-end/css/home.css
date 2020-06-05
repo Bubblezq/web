@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(203, 207, 228);
+}
+
+ul {
+    opacity:0.8;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: rgb(31, 75, 141);
+}
+a {
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+img{
+    width: 270px;
+    height: 370px;
+}
+
+.section-products .pruduct-buttons {
+    position: absolute;
+    width: 6%;
+    text-align: center;
+    left: -20%;
+    visibility: hidden;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    bottom: 28%;
+}
+
+.section-products .product-item-wrapper{
+    width: 330px;
+}
+
+.section-products .product-item-wrapper:hover .pruduct-buttons {
+	visibility: visible;
+	left: 15px;
+}
+
+.section-products .product-item-wrapper ul li {
+    float: left;
+}
+
+.section-products .product-thumb {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-products .pruduct-buttons a {
+    background: #fff;
+    padding: 3px 4px;
+    line-height: 1.5;
+    font-size: 15px;
+    margin: 10px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: 0 0 40px #2422222b;
+}
+
+.section-products .product-thumb a.thumbnail {
+    display: block;
+    position: relative;
+}
+
+.section-products .product-item {
+    float:left;
+}
+
+.section-products h3.product-title {
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+    
+}
+
+.section-products .product-price-container {
+    font-size: 15px;
+}
+
+.section-products span.fix-price, span.fix-price {
+    color: #000000;
+    margin: 0 3px;
+    font-weight: 500;
+}
+
+.col-grid-4 {
+    width: 33.33333%;
+    height: 50%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #ccc;
+    color: #222;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 115px;
+    margin-left: 15px;
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0 0 40px #2422222b;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip:hover {
+     color: #ce1648;
+}
+
+.nextpage{
+    margin-left: 1230px;
+    margin-top: 10px;
+    height: 40px;
+    background:rgb(3, 35, 95);
+    color: #fff;
+}
+
+.nextpage:hover{
+    background: #666;
+}

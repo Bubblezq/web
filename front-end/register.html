@@ -6,36 +6,27 @@
     <title>BookStore</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/register.css">
+    <script src="js/regist.js"></script>
 </head>
 <body>
-    <header>
-        <div>
-                <ul>
-                    <li><a href="home.html">主页</a></li>
-                    <li><a href="order.html" >我的订单</a></li>
-                    <li><a href="login.html" >登录</a></li>
-                    <li><a class="active" href="register.html" >注册</a></li>
-                    
-                </ul>
-        </div> 
-    </header> 
+    <br>
+    <br>
     <br>
 	<br>
-
     <div class="section-my-account">
         <div class="user-acc-header">
             <img src="images/author.png" alt="">
-            <h3>注册</h3>
+            <h3>REGISTER</h3>
         </div>
     <div class="content-body">
     <form name="input" action="",method="get">
-        <p><label>用户名</label><input type="text" placeholder="用户名" ></p>
-        <p><label>密码</label><input type="password" placeholder="密码" ></p>
-        <a href="login.html"><p><input type="submit" value="注册"></p></a>
+        <p><input id="username" type="text" placeholder="username" ></p>
+        <p><input id="password" type="password" placeholder="password" ></p>
+        <p><input type="button" value="REGISTER" onclick="Regist()"></p>
     </form>
     </div>
     <div>
-        <p>已有账号？<a href="login.html">登录</a></p>
+        <p><a href="login.html">To Login</a></p>
     </div>
 </div>
 </body>
